@@ -1,0 +1,28 @@
+﻿.gallery {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery .thumbnail {
+    border: solid gray 1px;
+    margin: 20px;
+}
+
+.gallery .thumbnail img {
+    width: 100px;
+    height: 100px;
+}
+
+.filter img {
+    width: 350px;
+}
+
+@media (max-width: 1024px) {
+    .filter img {
+        width: 100%;
+    }
+}

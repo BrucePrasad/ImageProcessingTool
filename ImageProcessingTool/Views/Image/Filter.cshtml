@@ -1,0 +1,16 @@
+﻿@model ImageProcessingTool.Models.ImageFilter
+ 
+<section class="filter">
+    <div class="container">        
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h5 class="text-left">Original Image</h5>
+                <img src="@Url.Content(Model.OriginalImage)" style=""/>                
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h5 class="text-left">Greyed Image</h5>
+                <img src="@Url.Content(Model.GreyscaleImage)"  style=""/>                
+            </div>
+        </div>
+    </div>
+</section>
